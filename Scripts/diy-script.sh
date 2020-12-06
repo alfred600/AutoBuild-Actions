@@ -4,7 +4,7 @@
 # AutoBuild Actions
 
 Diy_Core() {
-Author=Hyy2001
+Author=alfred600
 Default_Device=d-team_newifi-d2
 }
 
@@ -35,6 +35,8 @@ ExtraPackages svn other luci-app-socat https://github.com/project-openwrt/openwr
 # [UPX 压缩] ExtraPackages git other openwrt-upx https://github.com/Hyy2001X master
 # [应用过滤] ExtraPackages git OAF openwrt-OpenAppFilter https://github.com/Lienol master
 # [AdGuardHome 核心] ExtraPackages svn other AdGuardHome https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t
+#alfred600
+ExtraPackages git lienol https://github.com/Lienol/openwrt-package.git master
 }
 
 Diy-Part2() {
