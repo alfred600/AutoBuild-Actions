@@ -19,7 +19,7 @@ on:
 #      - '.config'
 
   schedule:
-    - cron: 0 11 * * *
+    - cron: 0 4 * * 0
   
   watch:
     types: [started]
@@ -116,7 +116,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       with:
-        tag_name: AutoUpdate
+        tag_name: AutoUpdateDN
         body_path: update_log.txt
         files: openwrt/bin/Firmware/*
         
