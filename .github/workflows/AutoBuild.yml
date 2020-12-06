@@ -116,7 +116,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       with:
-        tag_name: AutoUpdateDN
+        tag_name: AutoUpdate
         body_path: update_log.txt
         files: openwrt/bin/Firmware/*
         
