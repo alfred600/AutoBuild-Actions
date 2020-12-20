@@ -34,7 +34,7 @@ ExtraPackages git other luci-app-serverchan https://github.com/tty228 master
 ExtraPackages svn other luci-app-socat https://github.com/project-openwrt/openwrt/trunk/package/lienol
 #alfred600
 #ExtraPackages git other luci-app-passwall https://github.com/xiaorouji/openwrt-passwall/tree/main/luci-app-passwall master
-ExtraPackages git lienol https://github.com/Lienol/openwrt-package master
+#ExtraPackages git lienol https://github.com/Lienol/openwrt-package master
 # [UPX 压缩] ExtraPackages git other openwrt-upx https://github.com/Hyy2001X master
 # [应用过滤] ExtraPackages git OAF openwrt-OpenAppFilter https://github.com/Lienol master
 # ExtraPackages git OAF openwrt-OpenAppFilter https://github.com/Lienol master
